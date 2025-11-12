@@ -55,7 +55,7 @@ A) aloca_simples.c: Esse código serve para alocar uma parte da memória RAM e m
 4. Gerenciamento de Arquivos.
 Objetivo: Trabalhar com estrutura de diretórios, permissões e operações de arquivos.
 
-![Uploading image.png…]()
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/ce4a4ee8-a02e-47a5-8bfb-13350a20df7a" />
 
 A) criar_pasta.sh: cria a estrutura /home/gabriel/sistema_operacional/{docs,src,bin,logs}, adiciona arquivos de exemplo e define permissões diferentes para cada tipo de arquivo. O que ele faz:
     • Cria as pastas principais (docs, src, bin, logs) com o comando mkdir -p.
