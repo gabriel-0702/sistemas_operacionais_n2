@@ -2,7 +2,7 @@
 
 Gabriel Assunção Martins / Maria Luiza de Souza
 
-1. Monitorando Processos e Recursos do Sistema:
+1. Monitorando Processos e Recursos do Sistema.
 Objetivo: Explorar gerenciamento de processos, CPU, memória e I/O. 
 
 <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/cbd3cc2a-b1fe-4fb3-bc93-db681d6929f9" />
@@ -22,7 +22,7 @@ D) ps: Utilizado para exibir os processos do sistema. Não atualiza em tempo rea
 --sort=-pcpu: Ordena a lista pelo uso de CPU em ordem decrescente.
 | head -n 6: O comando head mostra apenas as primeiras linhas. Dentro do comando, há o -n 6 serve para mostrar 6 linhas. Sendo o primeiro para o cabeçalho e os demais para as outras informações.
 
-2. Comunicação entre Processos (IPC)
+2. Comunicação entre Processos (IPC).
 Objetivo: Entender como processos podem se comunicar.
 
 <img width="1919" height="822" alt="image" src="https://github.com/user-attachments/assets/c128ee60-bdc7-48f8-873e-db203037953e" />
@@ -39,7 +39,7 @@ B) recebe.sh:
 	Confirmação do leitor em 2025-11-11 21:12:13 (recebido: Hello World!)
     • Essa confirmação permite que o escritor saiba que a mensagem foi recebida e processada.
 
-3. Exercício de Memória
+3. Exercício de Memória.
 Objetivo: Mostrar alocação de memória e consumo de processos.
 
 <img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/a30bee74-e3dd-4b35-9287-2fe087bda4ec" />
@@ -52,7 +52,7 @@ A) aloca_simples.c: Esse código serve para alocar uma parte da memória RAM e m
     • O programa então mostra uma mensagem dizendo que a memória foi alocada e aguarda o usuário apertar ENTER.
     • Quando o usuário aperta ENTER, o programa usa free() para liberar toda a memória e finaliza.
 
-4. Gerenciamento de Arquivos
+4. Gerenciamento de Arquivos.
 Objetivo: Trabalhar com estrutura de diretórios, permissões e operações de arquivos.
 
 ![Uploading image.png…]()
