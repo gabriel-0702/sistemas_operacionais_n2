@@ -1,0 +1,14 @@
+Comunicação entre processos (IPC) - exemplos usados no trabalho
+
+1) escreve.sh
+- Comportamento: usuário digita uma mensagem e pressiona Enter.
+- A mensagem é enviada para /tmp/input.
+- O escritor aguarda uma resposta em /tmp/output e mostra a confirmação.
+
+2) recebe.sh
+- Comportamento: fica lendo /tmp/input.
+- Quando recebe algo, imprime "Leitor recebeu: <mensagem>".
+- Em seguida escreve uma confirmação em /tmp/output, por exemplo:
+  Confirmação do leitor em 2025-11-11 21:12:13 (recebido: Hello World!)
+
+Isso demonstra um canal simples de mensagens entre dois processos usando pipes nomeados (FIFOs).
